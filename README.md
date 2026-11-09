@@ -12,4 +12,4 @@ A simple progressive tax calculator built with Flask. Enter an annual income and
 3. Open `http://127.0.0.1:5000`
 
 ## Screenshot
-![Tax calculator result page](screenshot.png)
+![Tax calculator result page](Screenshot.png)
