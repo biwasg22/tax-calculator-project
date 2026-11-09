@@ -17,6 +17,8 @@ def index():
 @app.route('/calculate', methods=['POST'])
 def calculate():
     income_text = request.form.get("income", "")
+    if income_text == "":
+        return render_template('error.html', message="Please enter an income"), 400
     income = float(income_text)
 
     if income < 0:
