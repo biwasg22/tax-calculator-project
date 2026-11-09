@@ -31,7 +31,7 @@ def calculate():
     else:
         tax = (20000 * 0.15) + (30000 * 0.25) + ((income - 50000) * 0.35)
 
-    return render_template('result.html', income=f"${income:.2f}", tax=f"${tax:.2f}")
+    return render_template('result.html', income=f"${income:,.2f}", tax=f"${tax:,.2f}")
 
 
 if __name__ == '__main__':
