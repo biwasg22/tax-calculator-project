@@ -12,4 +12,4 @@ A simple progressive tax calculator built with Flask. Enter an annual income and
 3. Open `http://127.0.0.1:5000`
 
 ## Screenshot
-The home page shows an "Annual income" box and a "Calculate tax" button. After entering 30000 and clicking the button, the result page shows the income as $30000.00 and the tax as $5500.00.
+![Tax calculator result page](screenshot.png)
